@@ -8,8 +8,6 @@
     align-items: center;
     position: relative;
     text-decoration: none;
-    margin: 0;
-
 }
     
 .cover__link::before {
