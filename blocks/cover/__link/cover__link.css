@@ -1,6 +1,6 @@
 .cover__link {
     width: 1184px;
-    min-height: 640px;
+    min-height: 740px;
     margin: 0 auto 0;
     display: flex;
     flex-direction: column;
@@ -19,11 +19,11 @@
     bottom: 0;
     background: #2A2C2F;
     opacity: 0.3;
+    transition: opacity 0.5s ease;
 }
     
 .cover__link:hover::before {
     opacity: 0.8;
-    transition: opacity 0.5s ease;
 }
 
 @media screen and (max-width: 1279px) {
